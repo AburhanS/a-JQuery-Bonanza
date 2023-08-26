@@ -1,0 +1,29 @@
+#container{
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+}
+
+.divv{
+    border-bottom: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    margin: auto 10px;
+}
+
+#addAndRemove{
+    margin-bottom: 10px;
+}
+
+.hidden{
+    display: none;
+}

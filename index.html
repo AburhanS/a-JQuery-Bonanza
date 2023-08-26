@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript" defer></script>
+    <script src="js/main.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" defer>
+</head>
+
+<body>
+    <div class="divv">
+        <div class="buttons" id="addAndRemove">
+            <button id="btnAddClass" class="btn">Hide All</button>
+            <button id="btnRemoveClass" class="btn">Show All</button>
+        </div>
+    </div>
+    
+
+    <div id="container">
+        <div id="divFade" class="divv">
+            <div class="buttons">
+                <button id="btnFadeIn" class="btn">Fade In</button>
+                <button id="btnFadeOut" class="btn">Fade Out</button>
+                <button id="btnFadeToggle" class="btn">Fade Toggle</button>
+            </div>
+
+            <p id="txtFade">When the buttons are clicked, this text fades.</p>
+        </div>
+        <br>
+        <div id="divHide" class="divv">
+            <div class="buttons">
+                <button id="btnHide" class="btn">Hide</button>
+                <button id="btnShow" class="btn">Show</button>
+            </div>
+
+            <p id="txtHide">When the buttons are clicked, this text appears or disappears.</p>
+        </div>
+        <br>
+        <div id="divSlide" class="divv">
+            <div class="buttons">
+                <button id="btnSlideDown"class="btn">Slide Down</button>
+                <button id="btnSlideUp" class="btn">Slide Up</button>
+                <button id="btnSlideToggle" class="btn">Slide Toggle</button>
+            </div>
+
+            <p id="txtSlide">When the buttons are clicked, this text slides.</p>
+        </div>
+        <br>
+        <div id="divAppend" class="divv">
+            <div class="buttons">
+                <button id="btnAppend"class="btn">Append</button>
+            </div>
+
+        </div>
+        <br>
+        <div id="divHtml" class="divv">
+            <div class="buttons">
+                <button id="btnHtml"class="btn">Change Inner HTML</button>
+            </div>
+
+            <div id="txtHtml">
+                <p>When the button is clicked, this innerHTML will change.</p>
+            </div>
+        </div>
+        <br>
+        <div id="divText" class="divv">
+            <div class="buttons">
+                <button id="btnText"class="btn">Change The Text</button>
+            </div>
+
+            <p id="txtText">When the button is clicked, this text will change.</p>
+        </div>
+        <br>
+        <div id="divVal" class="divv">
+            <div class="buttons">
+                <button id="btnVal"class="btn">Change The Value</button>
+            </div>
+
+            <p>When the button is clicked, value of the text input below will be changed.</p>
+            <input type="text" value="Current Value" id="inputVal">
+        </div>
+    </div>
+</body>
+</html>
